@@ -1,0 +1,40 @@
+.final {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.final__conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.final__pesquisa {
+    background-color: transparent;
+    border: solid 1px var(--cor-azul);
+    color: var(--cor-azul);
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+}
+
+.final__pesquisa::placeholder {
+    text-align: center;
+    font-size: 14px;
+    color: var(--cor-azul);
+    font-family: var(--fonte-principal);
+    background: url(/assets/Vector.png) no-repeat;
+    background-position: 2.3em;
+}
+
+.final__titulo {
+    color: var(--cor-azul);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.final__texto {
+    color: var(--cor-azul);
+}

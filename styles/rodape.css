@@ -1,0 +1,7 @@
+.rodape {
+    border-top: 1px solid var(--cor-azul);
+}
+
+.rodape__titulo {
+    padding: 1em;
+}

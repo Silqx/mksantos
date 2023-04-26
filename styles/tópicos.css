@@ -1,0 +1,32 @@
+.topicos {
+    background: var(--cor-azul-degrade);
+    margin-top: 2em;
+}
+
+.textoprincipal {
+    text-align: center;
+    padding: 1.5em;
+    color: var(--cor-branco);
+    text-transform: uppercase;    
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    text-align: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.links__link {
+    background-color: var(--cor-laranja);
+    padding: 1em;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.links__link a {
+    color: var(--cor-branco);
+    text-decoration: none;
+}
